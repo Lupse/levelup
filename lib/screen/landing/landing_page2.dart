@@ -1,5 +1,5 @@
-import 'package:final_project/screen/auth/sign_in.dart';
-import 'package:final_project/screen/auth/sign_up.dart';
+import 'package:final_project/screen/auth/sign_in/screen/sign_in.dart';
+import 'package:final_project/screen/auth/sign_up/screen/sign_up.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage2 extends StatelessWidget {
@@ -11,7 +11,7 @@ class LandingPage2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(children: [
       // Element1
-      Positioned(
+      const Positioned(
           child: Placeholder(
         strokeWidth: 0.5,
         child: SizedBox(
@@ -21,7 +21,7 @@ class LandingPage2 extends StatelessWidget {
       )),
 
       // Element2
-      Positioned(
+      const Positioned(
           bottom: 0,
           right: 0,
           child: Placeholder(
@@ -38,7 +38,7 @@ class LandingPage2 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Logo and Title
-            SizedBox(
+            const SizedBox(
               width: double.infinity,
               height: 220,
               child: Column(
@@ -46,12 +46,12 @@ class LandingPage2 extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Placeholder(
-                    child: Container(
+                    child: SizedBox(
                       width: 80,
                       height: 80,
                     ),
                   ),
-                  const Text(
+                  Text(
                     'Level Up',
                     style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                   ),

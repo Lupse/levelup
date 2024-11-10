@@ -1,4 +1,6 @@
+import 'package:final_project/screen/home/controller/home_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/instance_manager.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -8,6 +10,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final HomeController homeController = Get.find();
   final PageController _pageController = PageController();
   // ignore: unused_field
   int _currentIndex = 0;
@@ -161,8 +164,20 @@ class _HomePageState extends State<HomePage> {
           });
         },
         children: [
-          const Placeholder(
+          Placeholder(
             color: Colors.red,
+            child: Center(
+                child: ElevatedButton(
+              onPressed: () {
+                homeController.logout();
+              },
+              style: const ButtonStyle(
+                  backgroundColor: WidgetStatePropertyAll(Colors.red)),
+              child: const Text(
+                "Logout",
+                style: TextStyle(color: Colors.white),
+              ),
+            )),
           ),
           const Placeholder(
             color: Colors.green,
