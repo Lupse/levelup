@@ -1,0 +1,1 @@
+ D:\\Flutter\ Mobile\ Project\\levelup\\.dart_tool\\flutter_build\\c09a9a4d1461ee594afb7e8a65994b52\\native_assets.yaml: 

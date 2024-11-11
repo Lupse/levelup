@@ -36,8 +36,8 @@ class LandingPage1 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Title and Subtitle
-            Padding(
-              padding: const EdgeInsets.only(left: 24),
+            const Padding(
+              padding: EdgeInsets.only(left: 24),
               child: SizedBox(
                 width: 320,
                 height: 250,
@@ -45,19 +45,19 @@ class LandingPage1 extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                        padding: const EdgeInsets.only(left: 45.0),
+                        padding: EdgeInsets.only(left: 45.0),
                         child: Placeholder(
-                          child: Container(
+                          child: SizedBox(
                             width: 80,
                             height: 80,
                           ),
                         )),
-                    const Text(
+                    Text(
                       'Level Up',
                       style:
                           TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                     ),
-                    const Text(
+                    Text(
                       'Level up yourself to be a better person!',
                       style: TextStyle(fontSize: 22),
                     ),
@@ -67,10 +67,10 @@ class LandingPage1 extends StatelessWidget {
             ),
 
             // Image
-            Container(
+            const SizedBox(
               width: double.infinity,
               height: 350,
-              child: const Placeholder(),
+              child: Placeholder(),
             ),
 
             // Button
