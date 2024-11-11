@@ -4,14 +4,14 @@
             "outputFile": "com.example.final_project.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Flutter Mobile Project\\levelup\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\MSI MODERN\\Desktop\\nitipyaput\\levelup\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
-                        "startOffsets": "172,817",
+                        "startOffsets": "175,831",
                         "endLines": "7,16",
                         "endColumns": "12,12",
-                        "endOffsets": "475,981"
+                        "endOffsets": "482,997"
                     },
                     "to": {
                         "startLines": "2,6",

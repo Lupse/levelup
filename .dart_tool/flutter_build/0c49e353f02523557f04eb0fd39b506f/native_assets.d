@@ -1,0 +1,1 @@
+ C:\\Users\\MSI\ MODERN\\Desktop\\nitipyaput\\levelup\\.dart_tool\\flutter_build\\0c49e353f02523557f04eb0fd39b506f\\native_assets.yaml: 
